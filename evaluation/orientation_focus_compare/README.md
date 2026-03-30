@@ -1,13 +1,13 @@
 # Orientation Focus Comparison
 
 This comparison measures the archived Python baseline against the current
-orientation-focused hybrid strategy on the bundled Otira dataset.
+orientation-focused hybrid strategy on the archived Otira evaluation dataset.
 
 Reference:
-- MATLAB CSV: `G3point/Excel/Otira_1cm_grains_n1/Otira_1cm_grains.ply_granulo.csv`
+- Archived Otira reference CSV
 
 Candidates:
-- `baseline`: archived `python_reference_v1`
+- `baseline`: archived Python baseline snapshot
 - `orientation_focus`: current `hybrid_direct` strategy
 
 Key matched results:

@@ -1,15 +1,15 @@
 # Pe3d Current Comparison
 
-This comparison measures the current `pe3d` Otira run against the bundled MATLAB reference.
+This comparison measures the current `pe3d` Otira run against archived reference outputs.
 
 Reference:
-- MATLAB CSV: `G3point/Excel/Otira_1cm_grains_n1/Otira_1cm_grains.ply_granulo.csv`
+- Archived Otira reference CSV
 
 Candidate:
 - `pe3d_current`: `pe3d_outputs_eval_current/Excel/Otira_1cm_grains_n1/Otira_1cm_grains.ply_granulo.csv`
 
 Key matched results:
-- MATLAB rows: `396`
+- Reference rows: `396`
 - `pe3d` rows: `401`
 - Center-distance mean: `0.1763 m`
 - `Dmax` MAE: `0.1289 m`

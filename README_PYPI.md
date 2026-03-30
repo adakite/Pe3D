@@ -2,7 +2,7 @@
 
 Pe3d is a Python 3.11 command-line tool for extracting pebble or grain metrics from 3D point clouds.
 
-It is a Python fork and reimplementation of the `G3Point` MATLAB workflow, packaged as a standalone CLI.
+It is a Python fork and reimplementation of the `G3Point` workflow, packaged as a standalone CLI.
 
 It provides an end-to-end workflow for:
 
@@ -124,7 +124,7 @@ In the current benchmark on this repository, serial fitting (`--workers 1`) was 
 
 ## Validation Snapshot
 
-This repository includes evaluation material comparing the current Python implementation to bundled MATLAB reference outputs.
+This repository includes evaluation material comparing the current Python implementation to archived reference outputs derived from the original workflow.
 
 On the normalized Otira comparison snapshot included in `evaluation/pe3d_current_compare_normalized/summary.json`, the current Python release candidate matches `396` reference rows with:
 

@@ -1,6 +1,6 @@
 # Pe3d Release Notes
 
-These notes assume `pe3d` is being released as a standalone Python fork repository, with the bundled MATLAB tree kept only as upstream reference and validation context.
+These notes assume `pe3d` is being released as a standalone Python fork repository without bundling the upstream MATLAB tree or older Python port.
 
 ## Local Build
 
@@ -29,7 +29,7 @@ The source distribution should only contain:
 
 Before upload, confirm the generated metadata no longer points at the upstream
 `G3Point` repository as the package homepage or source URL. Use the Python fork
-repository URL instead once it exists.
+repository URL instead.
 
 Also confirm the long description describes `pe3d` as a fork or
 reimplementation of `G3Point`, not as the upstream MATLAB package itself.

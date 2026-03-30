@@ -6,11 +6,10 @@ It is intended for batch processing of patch-scale terrestrial LiDAR or photogra
 
 ## Status
 
-This repository should be presented as a Python fork derived from the original MATLAB `G3Point` project, not as the upstream MATLAB codebase itself.
+This repository is the standalone Python project. It is derived from the original `G3Point` methodology, but it does not ship the legacy Python port or the upstream MATLAB source tree.
 
 - Upstream methodological basis: `G3Point`
 - This repository's main package: `src/pe3d`
-- Bundled MATLAB reference implementation: `G3point/`
 - Validation and benchmarking material: `evaluation/`
 
 ## Main capabilities
@@ -38,15 +37,15 @@ python -m pip install -e .
 ## Quick start
 
 ```bash
-pe3d run --pointcloud G3point/PointCloud/Otira_1cm_grains.ply
+pe3d run --pointcloud data/sample_cloud.ply
 ```
 
 Typical explicit example:
 
 ```bash
 pe3d run \
-  --pointcloud G3point/PointCloud/Otira_1cm_grains.ply \
-  --param-csv G3point/PointCloud/param.csv \
+  --pointcloud data/sample_cloud.ply \
+  --param-csv data/param.csv \
   --output-root pe3d_outputs \
   --sizing-mode ellipsoid \
   --preprocess-mode matlab \
@@ -57,7 +56,7 @@ Manual evaluation labeling:
 
 ```bash
 pe3d label-instances \
-  --pointcloud Nuage_HP.ply \
+  --pointcloud data/sample_cloud.ply \
   --output-root pe3d_labels \
   --reset-session
 ```
@@ -73,7 +72,7 @@ Each run writes MATLAB-style output folders under the selected output root:
 
 ## Evaluation
 
-The repository includes comparison artifacts that are useful for a public release because they show what the Python fork currently matches well and where it still differs from the MATLAB reference.
+The repository includes comparison artifacts that are useful for a public release because they show what the Python fork currently matches well and where it still differs from archived reference outputs derived from the original workflow.
 
 Recommended starting points:
 
@@ -98,7 +97,6 @@ Interpretation: grain-size parity is substantially closer than orientation parit
 
 - `src/pe3d/`: main Python package
 - `evaluation/`: validation plots, summaries, and benchmark notes
-- `G3point/`: bundled upstream MATLAB reference tree used for comparison
 - `docs/`: internal notes and release guidance
 
 ## Attribution and license

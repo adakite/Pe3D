@@ -1,7 +1,7 @@
 # Otira Comparison
 
-This folder compares the archived Python baseline against the bundled MATLAB
-reference and the new bounded-fit Python candidates.
+This folder compares the archived Python baseline against archived reference
+outputs and the new bounded-fit Python candidates.
 
 Files:
 - `summary.json`: matched metric summary
