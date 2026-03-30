@@ -1,0 +1,29 @@
+{
+  "manual_block_points": 172419,
+  "manual_non_block_points": 220134,
+  "predicted_positive_points_in_labeled_zones": 160532,
+  "tp": 102278,
+  "fp": 58254,
+  "fn": 70141,
+  "tn": 161880,
+  "precision": 0.6371190790621185,
+  "recall": 0.5931944855265371,
+  "specificity": 0.7353702744691869,
+  "f1": 0.6143726854702344,
+  "balanced_accuracy": 0.664282379997862,
+  "diagnostics": {
+    "spacing": 0.46116439035847284,
+    "block_split_enabled": 1.0,
+    "support_score_threshold": 0.48,
+    "seed_score_threshold": 0.56,
+    "grow_score_threshold": 0.45,
+    "prefilter_points": 2792176.0,
+    "connection_radius": 1.1529109758961822,
+    "grow_radius": 1.4411387198702277,
+    "split_seed_radius": 0.46116439035847284,
+    "split_size_threshold": 41731.0,
+    "split_attempt_count": 1.0,
+    "candidate_points": 807309.0,
+    "split_component_count": 2830.0
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "diagnostics": {
+    "spacing": 0.46116439035847284,
+    "block_split_enabled": 1.0,
+    "support_score_threshold": 0.48,
+    "seed_score_threshold": 0.56,
+    "grow_score_threshold": 0.45,
+    "connection_radius": 1.1529109758961822,
+    "grow_radius": 1.4411387198702277,
+    "split_seed_radius": 0.46116439035847284,
+    "split_size_threshold": 3673.0,
+    "split_attempt_count": 16.0,
+    "candidate_points": 959131.0,
+    "split_component_count": 2881.0
+  },
+  "rows": [
+    {
+      "instance_id": 1,
+      "manual_points": 19030,
+      "background_overlap": 4255,
+      "best_nonzero_label": 1767,
+      "best_nonzero_overlap_points": 13547,
+      "best_nonzero_recall": 0.71187598528639,
+      "best_nonzero_precision": 0.6741477979596915,
+      "best_nonzero_iou": 0.5296348424427242,
+      "top_auto_overlaps": [
+        [
+          1767,
+          13547
+        ],
+        [
+          0,
+          4255
+        ],
+        [
+          1776,
+          259
+        ],
+        [
+          1778,
+          182
+        ],
+        [
+          1772,
+          161
+        ]
+      ]
+    },
+    {
+      "instance_id": 2,
+      "manual_points": 6007,
+      "background_overlap": 1432,
+      "best_nonzero_label": 1450,
+      "best_nonzero_overlap_points": 158,
+      "best_nonzero_recall": 0.026302646911936074,
+      "best_nonzero_precision": 1.0,
+      "best_nonzero_iou": 0.026302646911936074,
+      "top_auto_overlaps": [
+        [
+          1698,
+          3617
+        ],
+        [
+          0,
+          1432
+        ],
+        [
+          1457,
+          183
+        ],
+        [
+          1450,
+          158
+        ],
+        [
+          1451,
+          138
+        ]
+      ]
+    },
+    {
+      "instance_id": 3,
+      "manual_points": 7833,
+      "background_overlap": 3122,
+      "best_nonzero_label": 1790,
+      "best_nonzero_overlap_points": 399,
+      "best_nonzero_recall": 0.05093833780160858,
+      "best_nonzero_precision": 1.0,
+      "best_nonzero_iou": 0.05093833780160858,
+      "top_auto_overlaps": [
+        [
+          1698,
+          4006
+        ],
+        [
+          0,
+          3122
+        ],
+        [
+          1790,
+          399
+        ],
+        [
+          1793,
+          299
+        ],
+        [
+          1795,
+          7
+        ]
+      ]
+    },
+    {
+      "instance_id": 4,
+      "manual_points": 4943,
+      "background_overlap": 1231,
+      "best_nonzero_label": 1993,
+      "best_nonzero_overlap_points": 322,
+      "best_nonzero_recall": 0.0651426259356666,
+      "best_nonzero_precision": 0.6652892561983471,
+      "best_nonzero_iou": 0.06307541625857004,
+      "top_auto_overlaps": [
+        [
+          1698,
+          3387
+        ],
+        [
+          0,
+          1231
+        ],
+        [
+          1993,
+          322
+        ],
+        [
+          1994,
+          3
+        ]
+      ]
+    },
+    {
+      "instance_id": 5,
+      "manual_points": 7389,
+      "background_overlap": 2014,
+      "best_nonzero_label": 1595,
+      "best_nonzero_overlap_points": 4999,
+      "best_nonzero_recall": 0.676546217350115,
+      "best_nonzero_precision": 0.805121597680786,
+      "best_nonzero_iou": 0.5813466682172346,
+      "top_auto_overlaps": [
+        [
+          1595,
+          4999
+        ],
+        [
+          0,
+          2014
+        ],
+        [
+          1602,
+          108
+        ],
+        [
+          1605,
+          84
+        ],
+        [
+          1600,
+          79
+        ]
+      ]
+    },
+    {
+      "instance_id": 6,
+      "manual_points": 3822,
+      "background_overlap": 2078,
+      "best_nonzero_label": 1697,
+      "best_nonzero_overlap_points": 1206,
+      "best_nonzero_recall": 0.315541601255887,
+      "best_nonzero_precision": 0.17211360068502926,
+      "best_nonzero_iou": 0.12532474280369946,
+      "top_auto_overlaps": [
+        [
+          0,
+          2078
+        ],
+        [
+          1697,
+          1206
+        ],
+        [
+          1691,
+          377
+        ],
+        [
+          1735,
+          90
+        ],
+        [
+          1688,
+          70
+        ]
+      ]
+    },
+    {
+      "instance_id": 7,
+      "manual_points": 6604,
+      "background_overlap": 1814,
+      "best_nonzero_label": 1559,
+      "best_nonzero_overlap_points": 219,
+      "best_nonzero_recall": 0.033161720169594185,
+      "best_nonzero_precision": 0.9647577092511013,
+      "best_nonzero_iou": 0.03312159709618875,
+      "top_auto_overlaps": [
+        [
+          1698,
+          4009
+        ],
+        [
+          0,
+          1814
+        ],
+        [
+          1559,
+          219
+        ],
+        [
+          1512,
+          184
+        ],
+        [
+          1513,
+          143
+        ]
+      ]
+    },
+    {
+      "instance_id": 8,
+      "manual_points": 7919,
+      "background_overlap": 2657,
+      "best_nonzero_label": 1535,
+      "best_nonzero_overlap_points": 207,
+      "best_nonzero_recall": 0.0261396640990024,
+      "best_nonzero_precision": 0.5348837209302325,
+      "best_nonzero_iou": 0.02555871095196938,
+      "top_auto_overlaps": [
+        [
+          1698,
+          4544
+        ],
+        [
+          0,
+          2657
+        ],
+        [
+          1535,
+          207
+        ],
+        [
+          1545,
+          156
+        ],
+        [
+          1538,
+          136
+        ]
+      ]
+    }
+  ],
+  "mean_best_nonzero_iou": 0.17941287031049138,
+  "mean_best_nonzero_recall": 0.23820609985127497
+}

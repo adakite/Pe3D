@@ -1,0 +1,13 @@
+{
+  "best_transform": "identity",
+  "transform_mae_deg": {
+    "identity": 37.623822776515155,
+    "plus90": 52.376177223484845,
+    "minus90": 52.376177223484845,
+    "mirror": 37.751138775,
+    "mirror_plus90": 52.248861225,
+    "mirror_minus90": 52.248861225
+  },
+  "normalized_map_angle_mae_deg": 37.623822776515155,
+  "normalized_xview_angle_mae_deg": 31.822170112128788
+}

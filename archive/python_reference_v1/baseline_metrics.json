@@ -1,0 +1,48 @@
+{
+  "reference_csv": "G3point/Excel/Otira_1cm_grains_n1/Otira_1cm_grains.ply_granulo.csv",
+  "python_csv": "python_outputs_full/Excel/Otira_1cm_grains_n1/Otira_1cm_grains.ply_granulo.csv",
+  "reference_grains": 503,
+  "python_grains": 505,
+  "reference_rows": 396,
+  "python_rows": 400,
+  "matched_rows": 396,
+  "center_distance": {
+    "mean": 0.18997201818401088,
+    "median": 0.1590837498019757,
+    "p95": 0.5097956096016392,
+    "max": 1.0808187705886865
+  },
+  "metrics": {
+    "Dmax": {
+      "mae": 0.16082849204545455,
+      "rmse": 0.2558712761761736,
+      "bias": 0.055364060934343436,
+      "median_abs": 0.09612213999999998,
+      "p95_abs": 0.46020705
+    },
+    "Dmed": {
+      "mae": 0.10966141427525253,
+      "rmse": 0.1804402927117986,
+      "bias": 0.03658537558838384,
+      "median_abs": 0.059698549,
+      "p95_abs": 0.36964832
+    },
+    "Dmin": {
+      "mae": 0.0825723572212121,
+      "rmse": 0.1316698252089361,
+      "bias": -0.03671788696363636,
+      "median_abs": 0.049870422000000005,
+      "p95_abs": 0.24762997075
+    },
+    "angle_Mview": {
+      "mae": 38.27310125252526,
+      "median_abs": 34.706725000000006,
+      "p95_abs": 81.9834725
+    },
+    "angle_Xview": {
+      "mae": 33.365324674502524,
+      "median_abs": 28.830643500000004,
+      "p95_abs": 82.536365
+    }
+  }
+}

@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pe3d"
+version = "0.1.0"
+description = "Python CLI for 3D pebble granulometry from point clouds"
+readme = "README_PYPI.md"
+requires-python = ">=3.11"
+license = "LicenseRef-G3Point-2022"
+license-files = ["LICENSE", "NOTICE.md"]
+authors = [
+  {name = "pe3d contributors"},
+]
+keywords = ["point-cloud", "granulometry", "pebbles", "sediment", "3d"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Scientific/Engineering :: GIS",
+]
+dependencies = [
+  "scipy>=1.12",
+  "pandas>=2.2",
+  "matplotlib>=3.8",
+  "plyfile>=1.1",
+  "laspy[lazrs]>=2.5",
+  "openpyxl>=3.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/adakite/Pe3D"
+Source = "https://github.com/adakite/Pe3D"
+Issues = "https://github.com/adakite/Pe3D/issues"
+Upstream = "https://lidar.univ-rennes.fr/en/g3point"
+
+[project.scripts]
+pe3d = "pe3d.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["pe3d", "pe3d.*"]

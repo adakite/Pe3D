@@ -1,0 +1,21 @@
+include LICENSE
+include NOTICE.md
+include README_PYPI.md
+include pyproject.toml
+recursive-include src/pe3d *.py
+prune src/g3point
+prune src/g3point.egg-info
+exclude README.md
+exclude AGENTS.md
+prune G3point
+prune archive
+prune docs
+prune evaluation
+prune pe3d_outputs_smoke
+prune python_outputs_bounded_atan2
+prune python_outputs_bounded_matlab
+prune python_outputs_candidate
+prune python_outputs_full
+prune python_outputs_orientation_focus
+prune python_outputs_smoke
+prune python_outputs_smoke2
