@@ -124,9 +124,9 @@ In the current benchmark on this repository, serial fitting (`--workers 1`) was 
 
 ## Validation Snapshot
 
-This repository includes evaluation material comparing the current Python implementation to archived reference outputs derived from the original workflow.
+This repository includes a small public evaluation snapshot comparing the current Python implementation to archived reference outputs derived from the original workflow.
 
-On the normalized Otira comparison snapshot included in `evaluation/pe3d_current_compare_normalized/summary.json`, the current Python release candidate matches `396` reference rows with:
+On the retained Otira comparison snapshot, the current Python release candidate matches `396` reference rows with:
 
 - `Dmax` MAE: `0.1289 m`
 - `Dmed` MAE: `0.0894 m`

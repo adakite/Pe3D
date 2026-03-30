@@ -77,9 +77,10 @@ The repository includes comparison artifacts that are useful for a public releas
 Recommended starting points:
 
 - `evaluation/pe3d_current_compare_normalized/`
-- `evaluation/preprocess_mode_benchmark/`
-- `evaluation/worker_benchmark/`
-- `evaluation/README.md`
+- `evaluation/otira_compare/diameter_cdfs.png`
+- `evaluation/otira_compare/angle_cdfs.png`
+- `evaluation/otira_compare/diameter_mae.png`
+- `evaluation/otira_compare/angle_mae.png`
 
 Current Otira normalized comparison highlights:
 
@@ -96,7 +97,7 @@ Interpretation: grain-size parity is substantially closer than orientation parit
 ## Repository layout
 
 - `src/pe3d/`: main Python package
-- `evaluation/`: validation plots, summaries, and benchmark notes
+- `evaluation/otira_compare/`: retained public comparison figures
 - `docs/`: internal notes and release guidance
 
 ## Attribution and license
